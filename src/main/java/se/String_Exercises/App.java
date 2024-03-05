@@ -56,5 +56,12 @@ public class App
         String original = "\tJ\ta\tv\ta\t";
         System.out.println("Q.6) " + original);
 
+        /*
+        7. Parse the following int: 20 to a String and add a 20 to the end of the String.
+        Printing it out should return: "2020".
+         */
+        int number = 20;
+        String numToString = Integer.toString(number);
+        System.out.println("Q.7) " +numToString+"20");
     }
 }
