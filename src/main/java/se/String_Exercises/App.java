@@ -28,6 +28,14 @@ public class App
        String newString = originalString.substring(10,22);
        System.out.println("Q.3)" + newString);
 
-
+       /*
+       4. Convert the following String: "CAPS EQUALS SCREAMING" to lowercase and print it out.
+       Then convert it back to uppercase and print it out again.
+        */
+        String uppCase = "CAPS EQUALS SCREAMING";
+        String lowToUpp = uppCase.toLowerCase();
+        System.out.println("Q.4) ");
+        System.out.println("Upper case:" + uppCase);
+        System.out.println("Lower case:" + lowToUpp);
     }
 }
