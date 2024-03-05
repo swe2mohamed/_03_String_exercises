@@ -37,5 +37,24 @@ public class App
         System.out.println("Q.4) ");
         System.out.println("Upper case:" + uppCase);
         System.out.println("Lower case:" + lowToUpp);
+
+
+        /*
+        5. Correct the following String: "Java is the worst programming language!" by replacing the
+        (obviously incorrect) word "worst" with the word "best". Then print out the sentence.
+         */
+        String originalText = "Java is the worst programming language!";
+        String changeText = originalText.replace("worst","best");
+        System.out.println("Q.5) ");
+        System.out.println("Original text: " + originalText);
+        System.out.println("New text:      " + changeText);
+
+        /*
+        6. What is the output of the following String:
+        "\tJ\ta\tv\ta\t" after you trim it?
+         */
+        String original = "\tJ\ta\tv\ta\t";
+        System.out.println("Q.6) " + original);
+
     }
 }
