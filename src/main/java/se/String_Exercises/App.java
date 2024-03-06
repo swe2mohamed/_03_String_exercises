@@ -99,7 +99,13 @@ public class App
 
         }
 
-
+        /*
+        11. Convert the following char[]: {'J','a','v','a'} to a String and print it out.
+         */
+        char[] charArray = {'J','a','v','a'};
+        String stringFromArray = new String(charArray);
+        System.out.print("Q.11) ");
+        System.out.println(stringFromArray);
 
 
 
