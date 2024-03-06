@@ -1,4 +1,5 @@
 package se.String_Exercises;
+import java.util.Arrays;
 
 /**
  * Hello world!
@@ -63,5 +64,16 @@ public class App
         int number = 20;
         String numToString = Integer.toString(number);
         System.out.println("Q.7) " +numToString+"20");
+
+        /*
+        8. Oil and water don't go well together. Given the String: "Oil and Water", split them up into the words
+        "Oil","Water" and store them in a String array.
+         */
+
+        String originText = "Oil and Water";
+        String [] newArr = originText.split("\\s*and\\s*");
+        System.out.println(Arrays.toString(newArr));
+
+
     }
 }
