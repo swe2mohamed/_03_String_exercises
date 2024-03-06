@@ -89,10 +89,18 @@ public class App
         10. Convert the following String: "ThisShouldBeConverted" to a char array.
         Iterate through the char array and print out each element.
          */
-        String txt = "ThisShouldBeConverted";
-        String [] txtToArr = txt.split("");
-        System.out.print("Q.10) ");
-        System.out.println(Arrays.toString(txtToArr));
+        String originalText1 = "ThisShouldBeConverted";
+        char [] charactersArray = originalText1.toCharArray();
+        System.out.println("Q.10) ");
+        int num = 1;
+        for(char character : charactersArray){
+            System.out.println(num+"- " + character);
+            num +=1;
+
+        }
+
+
+
 
 
 
