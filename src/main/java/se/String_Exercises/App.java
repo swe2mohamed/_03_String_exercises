@@ -72,8 +72,17 @@ public class App
 
         String originText = "Oil and Water";
         String [] newArr = originText.split("\\s*and\\s*");
+        System.out.print("Q.8) ");
         System.out.println(Arrays.toString(newArr));
 
+        /*
+        9. Split the following String: "Carl,Susie,Fredrick,Bob,Erik" into an array.
+        Print out all names separately.
+         */
 
+        String nam = "Carl,Susie,Fredrick,Bob,Erik";
+        String [] namArr = nam.split("\\s*,\\s*");
+        System.out.print("Q.9) ");
+        System.out.println(Arrays.toString(namArr));
     }
 }
