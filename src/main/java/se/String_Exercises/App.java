@@ -84,5 +84,17 @@ public class App
         String [] namArr = nam.split("\\s*,\\s*");
         System.out.print("Q.9) ");
         System.out.println(Arrays.toString(namArr));
+
+        /*
+        10. Convert the following String: "ThisShouldBeConverted" to a char array.
+        Iterate through the char array and print out each element.
+         */
+        String txt = "ThisShouldBeConverted";
+        String [] txtToArr = txt.split("");
+        System.out.print("Q.10) ");
+        System.out.println(Arrays.toString(txtToArr));
+
+
+
     }
 }
